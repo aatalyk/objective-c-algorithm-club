@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8471BB271E3BADA6009A9349 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB261E3BADA6009A9349 /* main.m */; };
+		8471BB301E3BAFA3009A9349 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB2F1E3BAFA3009A9349 /* Stack.m */; };
+		8471BB3A1E3BB258009A9349 /* StackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB391E3BB258009A9349 /* StackTests.m */; };
+		8471BB3F1E3BB33D009A9349 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB2F1E3BAFA3009A9349 /* Stack.m */; };
+		8471BB441E3BB8DE009A9349 /* Queue-Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB431E3BB8DE009A9349 /* Queue-Simple.m */; };
+		8471BB4C1E3BC567009A9349 /* QueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB4B1E3BC567009A9349 /* QueueTests.m */; };
+		8471BB511E3BC6AC009A9349 /* Queue-Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB431E3BB8DE009A9349 /* Queue-Simple.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +31,34 @@
 /* Begin PBXFileReference section */
 		8471BB231E3BADA6009A9349 /* Objective-C Algorithm Club */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C Algorithm Club"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8471BB261E3BADA6009A9349 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8471BB2E1E3BAFA3009A9349 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		8471BB2F1E3BAFA3009A9349 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		8471BB371E3BB258009A9349 /* StackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8471BB391E3BB258009A9349 /* StackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackTests.m; sourceTree = "<group>"; };
+		8471BB3B1E3BB258009A9349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8471BB421E3BB8DE009A9349 /* Queue-Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Queue-Simple.h"; sourceTree = "<group>"; };
+		8471BB431E3BB8DE009A9349 /* Queue-Simple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Queue-Simple.m"; sourceTree = "<group>"; };
+		8471BB491E3BC567009A9349 /* QueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8471BB4B1E3BC567009A9349 /* QueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueTests.m; sourceTree = "<group>"; };
+		8471BB4D1E3BC567009A9349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8471BB201E3BADA6009A9349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471BB341E3BB258009A9349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471BB461E3BC567009A9349 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				8471BB231E3BADA6009A9349 /* Objective-C Algorithm Club */,
+				8471BB371E3BB258009A9349 /* StackTests.xctest */,
+				8471BB491E3BC567009A9349 /* QueueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +89,51 @@
 		8471BB251E3BADA6009A9349 /* Objective-C Algorithm Club */ = {
 			isa = PBXGroup;
 			children = (
+				8471BB411E3BB8BF009A9349 /* Queue */,
+				8471BB2D1E3BAF59009A9349 /* Stack */,
 				8471BB261E3BADA6009A9349 /* main.m */,
 			);
 			path = "Objective-C Algorithm Club";
+			sourceTree = "<group>";
+		};
+		8471BB2D1E3BAF59009A9349 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				8471BB381E3BB258009A9349 /* StackTests */,
+				8471BB2E1E3BAFA3009A9349 /* Stack.h */,
+				8471BB2F1E3BAFA3009A9349 /* Stack.m */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		8471BB381E3BB258009A9349 /* StackTests */ = {
+			isa = PBXGroup;
+			children = (
+				8471BB391E3BB258009A9349 /* StackTests.m */,
+				8471BB3B1E3BB258009A9349 /* Info.plist */,
+			);
+			name = StackTests;
+			path = ../../StackTests;
+			sourceTree = "<group>";
+		};
+		8471BB411E3BB8BF009A9349 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				8471BB4A1E3BC567009A9349 /* QueueTests */,
+				8471BB421E3BB8DE009A9349 /* Queue-Simple.h */,
+				8471BB431E3BB8DE009A9349 /* Queue-Simple.m */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		8471BB4A1E3BC567009A9349 /* QueueTests */ = {
+			isa = PBXGroup;
+			children = (
+				8471BB4B1E3BC567009A9349 /* QueueTests.m */,
+				8471BB4D1E3BC567009A9349 /* Info.plist */,
+			);
+			name = QueueTests;
+			path = ../../QueueTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +156,40 @@
 			productReference = 8471BB231E3BADA6009A9349 /* Objective-C Algorithm Club */;
 			productType = "com.apple.product-type.tool";
 		};
+		8471BB361E3BB258009A9349 /* StackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8471BB3C1E3BB258009A9349 /* Build configuration list for PBXNativeTarget "StackTests" */;
+			buildPhases = (
+				8471BB331E3BB258009A9349 /* Sources */,
+				8471BB341E3BB258009A9349 /* Frameworks */,
+				8471BB351E3BB258009A9349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackTests;
+			productName = StackTests;
+			productReference = 8471BB371E3BB258009A9349 /* StackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8471BB481E3BC567009A9349 /* QueueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8471BB4E1E3BC567009A9349 /* Build configuration list for PBXNativeTarget "QueueTests" */;
+			buildPhases = (
+				8471BB451E3BC567009A9349 /* Sources */,
+				8471BB461E3BC567009A9349 /* Frameworks */,
+				8471BB471E3BC567009A9349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QueueTests;
+			productName = QueueTests;
+			productReference = 8471BB491E3BC567009A9349 /* QueueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +200,14 @@
 				ORGANIZATIONNAME = AAkash;
 				TargetAttributes = {
 					8471BB221E3BADA6009A9349 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					8471BB361E3BB258009A9349 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					8471BB481E3BC567009A9349 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -110,16 +226,55 @@
 			projectRoot = "";
 			targets = (
 				8471BB221E3BADA6009A9349 /* Objective-C Algorithm Club */,
+				8471BB361E3BB258009A9349 /* StackTests */,
+				8471BB481E3BC567009A9349 /* QueueTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8471BB351E3BB258009A9349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471BB471E3BC567009A9349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8471BB1F1E3BADA6009A9349 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8471BB441E3BB8DE009A9349 /* Queue-Simple.m in Sources */,
+				8471BB301E3BAFA3009A9349 /* Stack.m in Sources */,
 				8471BB271E3BADA6009A9349 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471BB331E3BB258009A9349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471BB3F1E3BB33D009A9349 /* Stack.m in Sources */,
+				8471BB3A1E3BB258009A9349 /* StackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471BB451E3BC567009A9349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471BB4C1E3BC567009A9349 /* QueueTests.m in Sources */,
+				8471BB511E3BC6AC009A9349 /* Queue-Simple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +382,50 @@
 			};
 			name = Release;
 		};
+		8471BB3D1E3BB258009A9349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calc.aakash.StackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8471BB3E1E3BB258009A9349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calc.aakash.StackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8471BB4F1E3BC567009A9349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QueueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calc.aakash.QueueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8471BB501E3BC567009A9349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QueueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calc.aakash.QueueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -244,6 +443,22 @@
 			buildConfigurations = (
 				8471BB2B1E3BADA6009A9349 /* Debug */,
 				8471BB2C1E3BADA6009A9349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8471BB3C1E3BB258009A9349 /* Build configuration list for PBXNativeTarget "StackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8471BB3D1E3BB258009A9349 /* Debug */,
+				8471BB3E1E3BB258009A9349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8471BB4E1E3BC567009A9349 /* Build configuration list for PBXNativeTarget "QueueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8471BB4F1E3BC567009A9349 /* Debug */,
+				8471BB501E3BC567009A9349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -7,11 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Queue-Simple.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Queue *queue = [[Queue alloc] initWithArray:[NSMutableArray new]];
+        [queue enqueue:@1];
+        
+        printf("%i", [[queue front] integerValue]);
+        
+        
     }
     return 0;
 }
