@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8471BB481E3BC567009A9349"
+               BlueprintIdentifier = "8471BB551E3BDF1F009A9349"
                BuildableName = "QueueTests.xctest"
                BlueprintName = "QueueTests"
                ReferencedContainer = "container:Objective-C Algorithm Club.xcodeproj">

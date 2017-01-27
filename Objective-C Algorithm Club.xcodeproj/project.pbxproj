@@ -12,8 +12,8 @@
 		8471BB3A1E3BB258009A9349 /* StackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB391E3BB258009A9349 /* StackTests.m */; };
 		8471BB3F1E3BB33D009A9349 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB2F1E3BAFA3009A9349 /* Stack.m */; };
 		8471BB441E3BB8DE009A9349 /* Queue-Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB431E3BB8DE009A9349 /* Queue-Simple.m */; };
-		8471BB4C1E3BC567009A9349 /* QueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB4B1E3BC567009A9349 /* QueueTests.m */; };
-		8471BB511E3BC6AC009A9349 /* Queue-Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB431E3BB8DE009A9349 /* Queue-Simple.m */; };
+		8471BB591E3BDF1F009A9349 /* QueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB581E3BDF1F009A9349 /* QueueTests.m */; };
+		8471BB5E1E3BDF46009A9349 /* Queue-Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB431E3BB8DE009A9349 /* Queue-Simple.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,9 +38,9 @@
 		8471BB3B1E3BB258009A9349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8471BB421E3BB8DE009A9349 /* Queue-Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Queue-Simple.h"; sourceTree = "<group>"; };
 		8471BB431E3BB8DE009A9349 /* Queue-Simple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Queue-Simple.m"; sourceTree = "<group>"; };
-		8471BB491E3BC567009A9349 /* QueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8471BB4B1E3BC567009A9349 /* QueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QueueTests.m; path = "../Objective-C Algorithm Club/Queue/QueueTests/QueueTests.m"; sourceTree = "<group>"; };
-		8471BB4D1E3BC567009A9349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Objective-C Algorithm Club/Queue/QueueTests/Info.plist"; sourceTree = "<group>"; };
+		8471BB561E3BDF1F009A9349 /* QueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8471BB581E3BDF1F009A9349 /* QueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueTests.m; sourceTree = "<group>"; };
+		8471BB5A1E3BDF1F009A9349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8471BB461E3BC567009A9349 /* Frameworks */ = {
+		8471BB531E3BDF1F009A9349 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,7 +81,7 @@
 			children = (
 				8471BB231E3BADA6009A9349 /* Objective-C Algorithm Club */,
 				8471BB371E3BB258009A9349 /* StackTests.xctest */,
-				8471BB491E3BC567009A9349 /* QueueTests.xctest */,
+				8471BB561E3BDF1F009A9349 /* QueueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,18 +119,18 @@
 		8471BB411E3BB8BF009A9349 /* Queue */ = {
 			isa = PBXGroup;
 			children = (
-				8471BB4A1E3BC567009A9349 /* QueueTests */,
+				8471BB571E3BDF1F009A9349 /* QueueTests */,
 				8471BB421E3BB8DE009A9349 /* Queue-Simple.h */,
 				8471BB431E3BB8DE009A9349 /* Queue-Simple.m */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
 		};
-		8471BB4A1E3BC567009A9349 /* QueueTests */ = {
+		8471BB571E3BDF1F009A9349 /* QueueTests */ = {
 			isa = PBXGroup;
 			children = (
-				8471BB4B1E3BC567009A9349 /* QueueTests.m */,
-				8471BB4D1E3BC567009A9349 /* Info.plist */,
+				8471BB581E3BDF1F009A9349 /* QueueTests.m */,
+				8471BB5A1E3BDF1F009A9349 /* Info.plist */,
 			);
 			name = QueueTests;
 			path = ../../QueueTests;
@@ -173,13 +173,13 @@
 			productReference = 8471BB371E3BB258009A9349 /* StackTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8471BB481E3BC567009A9349 /* QueueTests */ = {
+		8471BB551E3BDF1F009A9349 /* QueueTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8471BB4E1E3BC567009A9349 /* Build configuration list for PBXNativeTarget "QueueTests" */;
+			buildConfigurationList = 8471BB5B1E3BDF1F009A9349 /* Build configuration list for PBXNativeTarget "QueueTests" */;
 			buildPhases = (
-				8471BB451E3BC567009A9349 /* Sources */,
-				8471BB461E3BC567009A9349 /* Frameworks */,
-				8471BB471E3BC567009A9349 /* Resources */,
+				8471BB521E3BDF1F009A9349 /* Sources */,
+				8471BB531E3BDF1F009A9349 /* Frameworks */,
+				8471BB541E3BDF1F009A9349 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -187,7 +187,7 @@
 			);
 			name = QueueTests;
 			productName = QueueTests;
-			productReference = 8471BB491E3BC567009A9349 /* QueueTests.xctest */;
+			productReference = 8471BB561E3BDF1F009A9349 /* QueueTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
-					8471BB481E3BC567009A9349 = {
+					8471BB551E3BDF1F009A9349 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -227,7 +227,7 @@
 			targets = (
 				8471BB221E3BADA6009A9349 /* Objective-C Algorithm Club */,
 				8471BB361E3BB258009A9349 /* StackTests */,
-				8471BB481E3BC567009A9349 /* QueueTests */,
+				8471BB551E3BDF1F009A9349 /* QueueTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,7 +240,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8471BB471E3BC567009A9349 /* Resources */ = {
+		8471BB541E3BDF1F009A9349 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,12 +269,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8471BB451E3BC567009A9349 /* Sources */ = {
+		8471BB521E3BDF1F009A9349 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8471BB4C1E3BC567009A9349 /* QueueTests.m in Sources */,
-				8471BB511E3BC6AC009A9349 /* Queue-Simple.m in Sources */,
+				8471BB591E3BDF1F009A9349 /* QueueTests.m in Sources */,
+				8471BB5E1E3BDF46009A9349 /* Queue-Simple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +404,7 @@
 			};
 			name = Release;
 		};
-		8471BB4F1E3BC567009A9349 /* Debug */ = {
+		8471BB5C1E3BDF1F009A9349 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -415,7 +415,7 @@
 			};
 			name = Debug;
 		};
-		8471BB501E3BC567009A9349 /* Release */ = {
+		8471BB5D1E3BDF1F009A9349 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -454,11 +454,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		8471BB4E1E3BC567009A9349 /* Build configuration list for PBXNativeTarget "QueueTests" */ = {
+		8471BB5B1E3BDF1F009A9349 /* Build configuration list for PBXNativeTarget "QueueTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8471BB4F1E3BC567009A9349 /* Debug */,
-				8471BB501E3BC567009A9349 /* Release */,
+				8471BB5C1E3BDF1F009A9349 /* Debug */,
+				8471BB5D1E3BDF1F009A9349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
