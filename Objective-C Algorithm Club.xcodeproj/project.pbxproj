@@ -39,8 +39,8 @@
 		8471BB421E3BB8DE009A9349 /* Queue-Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Queue-Simple.h"; sourceTree = "<group>"; };
 		8471BB431E3BB8DE009A9349 /* Queue-Simple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Queue-Simple.m"; sourceTree = "<group>"; };
 		8471BB491E3BC567009A9349 /* QueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8471BB4B1E3BC567009A9349 /* QueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueTests.m; sourceTree = "<group>"; };
-		8471BB4D1E3BC567009A9349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8471BB4B1E3BC567009A9349 /* QueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QueueTests.m; path = "../Objective-C Algorithm Club/Queue/QueueTests/QueueTests.m"; sourceTree = "<group>"; };
+		8471BB4D1E3BC567009A9349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Objective-C Algorithm Club/Queue/QueueTests/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
