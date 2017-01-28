@@ -68,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8432B2A31E3C4F1100C3F9C1 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8471BB381E3BB258009A9349 /* StackTests */,
+				8471BB571E3BDF1F009A9349 /* QueueTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		8471BB1A1E3BADA6009A9349 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +98,7 @@
 		8471BB251E3BADA6009A9349 /* Objective-C Algorithm Club */ = {
 			isa = PBXGroup;
 			children = (
+				8432B2A31E3C4F1100C3F9C1 /* Tests */,
 				8471BB411E3BB8BF009A9349 /* Queue */,
 				8471BB2D1E3BAF59009A9349 /* Stack */,
 				8471BB261E3BADA6009A9349 /* main.m */,
@@ -99,7 +109,6 @@
 		8471BB2D1E3BAF59009A9349 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
-				8471BB381E3BB258009A9349 /* StackTests */,
 				8471BB2E1E3BAFA3009A9349 /* Stack.h */,
 				8471BB2F1E3BAFA3009A9349 /* Stack.m */,
 			);
@@ -119,7 +128,6 @@
 		8471BB411E3BB8BF009A9349 /* Queue */ = {
 			isa = PBXGroup;
 			children = (
-				8471BB571E3BDF1F009A9349 /* QueueTests */,
 				8471BB421E3BB8DE009A9349 /* Queue-Simple.h */,
 				8471BB431E3BB8DE009A9349 /* Queue-Simple.m */,
 			);
@@ -445,6 +453,7 @@
 				8471BB2C1E3BADA6009A9349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8471BB3C1E3BB258009A9349 /* Build configuration list for PBXNativeTarget "StackTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +462,7 @@
 				8471BB3E1E3BB258009A9349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8471BB5B1E3BDF1F009A9349 /* Build configuration list for PBXNativeTarget "QueueTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +471,7 @@
 				8471BB5D1E3BDF1F009A9349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
