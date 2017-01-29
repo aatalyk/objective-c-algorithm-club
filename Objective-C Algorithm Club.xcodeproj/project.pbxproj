@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842D453F1E3DB4C5009411BE /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D453E1E3DB4C5009411BE /* BinarySearch.m */; };
 		8471BB271E3BADA6009A9349 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB261E3BADA6009A9349 /* main.m */; };
 		8471BB301E3BAFA3009A9349 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB2F1E3BAFA3009A9349 /* Stack.m */; };
 		8471BB3A1E3BB258009A9349 /* StackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB391E3BB258009A9349 /* StackTests.m */; };
@@ -14,6 +15,7 @@
 		8471BB441E3BB8DE009A9349 /* Queue-Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB431E3BB8DE009A9349 /* Queue-Simple.m */; };
 		8471BB591E3BDF1F009A9349 /* QueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB581E3BDF1F009A9349 /* QueueTests.m */; };
 		8471BB5E1E3BDF46009A9349 /* Queue-Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471BB431E3BB8DE009A9349 /* Queue-Simple.m */; };
+		849612151E3D1389008CC632 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 849612141E3D1389008CC632 /* InsertionSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		842D453D1E3DB4C5009411BE /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		842D453E1E3DB4C5009411BE /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
 		8471BB231E3BADA6009A9349 /* Objective-C Algorithm Club */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C Algorithm Club"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8471BB261E3BADA6009A9349 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8471BB2E1E3BAFA3009A9349 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
@@ -41,6 +45,8 @@
 		8471BB561E3BDF1F009A9349 /* QueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8471BB581E3BDF1F009A9349 /* QueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueTests.m; sourceTree = "<group>"; };
 		8471BB5A1E3BDF1F009A9349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849612131E3D1389008CC632 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
+		849612141E3D1389008CC632 /* InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		842D453C1E3DB4B9009411BE /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				842D453D1E3DB4C5009411BE /* BinarySearch.h */,
+				842D453E1E3DB4C5009411BE /* BinarySearch.m */,
+			);
+			path = BinarySearch;
+			sourceTree = "<group>";
+		};
 		8432B2A31E3C4F1100C3F9C1 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,10 +113,12 @@
 		8471BB251E3BADA6009A9349 /* Objective-C Algorithm Club */ = {
 			isa = PBXGroup;
 			children = (
-				8432B2A31E3C4F1100C3F9C1 /* Tests */,
+				842D453C1E3DB4B9009411BE /* BinarySearch */,
+				849612121E3D1374008CC632 /* InsertionSort */,
 				8471BB411E3BB8BF009A9349 /* Queue */,
 				8471BB2D1E3BAF59009A9349 /* Stack */,
 				8471BB261E3BADA6009A9349 /* main.m */,
+				8432B2A31E3C4F1100C3F9C1 /* Tests */,
 			);
 			path = "Objective-C Algorithm Club";
 			sourceTree = "<group>";
@@ -142,6 +159,15 @@
 			);
 			name = QueueTests;
 			path = ../../QueueTests;
+			sourceTree = "<group>";
+		};
+		849612121E3D1374008CC632 /* InsertionSort */ = {
+			isa = PBXGroup;
+			children = (
+				849612131E3D1389008CC632 /* InsertionSort.h */,
+				849612141E3D1389008CC632 /* InsertionSort.m */,
+			);
+			path = InsertionSort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842D453F1E3DB4C5009411BE /* BinarySearch.m in Sources */,
 				8471BB441E3BB8DE009A9349 /* Queue-Simple.m in Sources */,
+				849612151E3D1389008CC632 /* InsertionSort.m in Sources */,
 				8471BB301E3BAFA3009A9349 /* Stack.m in Sources */,
 				8471BB271E3BADA6009A9349 /* main.m in Sources */,
 			);
